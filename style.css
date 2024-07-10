@@ -1,0 +1,136 @@
+.img-container{
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+.mountain{
+    width: 100%;
+    height: 90vh;
+}
+h1{
+    position: absolute;
+    font-family: "Playwrite PE", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #889DB2 !important;
+    font-size: 300%;
+}
+.img-container h2{
+    position: absolute;
+    top: 200px;
+    color: #889DB2;
+}
+.pro{
+    text-decoration: underline;
+}
+.my-photo{
+    display: flex;
+    justify-content: center;
+}
+.profile-img{
+    border-radius: 50%;
+    height: 15%;
+    width: 15%;
+}
+.hello{
+    color: #889DB2;
+    position: relative;
+}
+
+.desc-text{
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+hr {
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    align-items: center;
+}
+.skills h2{
+    color: #A389B3;
+}
+.design{
+    display: flex;
+    position: relative;
+    left: 15%;
+}
+
+.skill-title{
+    color: #889DB2;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.skills-description{
+    margin-left: 3%;
+}
+
+.skill-description{
+    width: 40%;
+}
+.cardo{
+    font-family: "Cardo", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+}
+.Touch{
+    color: #889DB2;
+}
+.like{
+    color: #889DB2;
+}
+.hr{
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+.button{
+    background-color: #889DB2;
+    color: white;
+    border-radius: 5%;
+    font-size: larger;
+    width: 20%;
+    border: 0;
+}
+footer{
+    background-color: #eaf6f6;
+    border: 0;
+}
+.text-body-secondary{
+    color: white;
+}
+.my-4{
+    margin-bottom: 0;
+}
+.desc{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+@media (max-width: 555px){
+    .design{
+        display: inline-block;
+    }
+}
